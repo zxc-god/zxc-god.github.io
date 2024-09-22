@@ -3,7 +3,7 @@ h1 {
     padding-top: 1%;
 }
 div {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     background-color: aliceblue;
@@ -21,4 +21,8 @@ body {
     float: left;
     margin-left: 1%;
     margin-top: 1%;
+}
+#edit {
+    width: 60%;
+    height: 60%;
 }
