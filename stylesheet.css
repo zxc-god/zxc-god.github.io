@@ -4,7 +4,7 @@ h1 {
 }
 .main_box {
     width: 90%;
-    max-width: 800px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25%;
@@ -13,6 +13,7 @@ h1 {
 }
 .box {
     margin-left: 6%;
+    margin-right: 6%;
     padding-bottom: 2%;
 }
 .mp {
@@ -38,9 +39,31 @@ footer {
     bottom: 0.5%;
     padding: 0.5%;
     background-color: rgba(94, 0, 0, 0.763);
+    border-color: aliceblue;
     color: aliceblue;
 }
 img, audio {
     max-width: 100%;
     max-height: 100%;
+}
+body {
+    font-family: Trebuchet MS;
+}
+h1, h2 {
+    font-family: Trebuchet MS;
+}
+.survey {
+border-color: salmon;
+}
+a {
+    color: black;
+}
+a :visited {
+    color: black;
+}
+a :hover {
+    color: blue;
+}
+a :active {
+    color: blueviolet;
 }
