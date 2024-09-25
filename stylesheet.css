@@ -5,15 +5,11 @@ h1 {
 .main_box {
     width: 90%;
     max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25%;
-    margin-top: 3%;
+    margin: 2% auto;
     background-color: aliceblue;
 }
 .box {
-    margin-left: 6%;
-    margin-right: 6%;
+    margin: auto 6%;
     padding-bottom: 2%;
 }
 .mp {
@@ -34,9 +30,6 @@ video {
     z-index: -100;
 }
 footer {
-    position: fixed;
-    margin-left: 1%;
-    bottom: 0.5%;
     padding: 0.5%;
     background-color: rgba(94, 0, 0, 0.763);
     border-color: aliceblue;
@@ -58,12 +51,15 @@ border-color: salmon;
 a {
     color: black;
 }
-a :visited {
+a:visited {
     color: black;
 }
-a :hover {
+a:hover {
     color: blue;
 }
-a :active {
+a:active {
     color: blueviolet;
+}
+.survey {
+    display: inline;
 }
