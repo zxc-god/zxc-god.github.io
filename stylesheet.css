@@ -65,5 +65,13 @@ a:active {
 }
 .lbl {
     display: block;
-    margin: 1%;
+    margin: 2%;
+}
+#inp {
+    margin-top: 2%;
+}
+hr {
+    height: 1px;
+    background-color: brown;
+    border-color: brown;
 }
