@@ -63,3 +63,7 @@ a:active {
 .survey {
     display: inline;
 }
+.lbl {
+    display: block;
+    margin: 1%;
+}

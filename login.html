@@ -16,22 +16,21 @@
                 <div class="box">
                     <section>
                         <h2>Sign in:</h2>
-                        <form action="https://freecatphotoapp.com/submit-cat-photo">
-                            <input type="text" name="login" placeholder="Enter your login" required>
-                            <p></p>
-                            <input type="password" name="password" placeholder="Enter your password" required>
-                            <p></p>
+                        <form action="https://freecatphotoapp.com/submit-cat-photo" method="post">
+                            <label class="lbl">Enter your email: <input type="email" placeholder="name@mail.domain" minlength="8" required></label>
+                            <label class="lbl">Enter your login: <input type="text" name="login" placeholder="your_login_example" minlength="8" required></label>                            
+                            <label class="lbl">Enter your password: <input type="password" name="password" placeholder="12+ letters or digits" pattern="[a-z0-9]{12,}" required></label>
                             <fieldset class="survey">
                                 <legend>Did u give valid info?</legend>
-                                <input type="radio" name="agreement"> Yes
-                                <input type="radio" name="agreement"> Absolutely
-                                <input type="radio" name="agreement"> Of course
+                                <label><input type="radio" name="agreement"> Yes</label>
+                                <label><input type="radio" name="agreement"> Absolutely</label>
+                                <label><input type="radio" name="agreement" required> Of course</label>
                             </fieldset>
                             <p></p>
                             <fieldset class="survey">
                                 <legend>Do u agree to <a href="terms.html" target="_blank">the terms and policy</a>?</legend>
-                                <input type="checkbox" name="checkboxes" required> Yes, I do
-                                <input type="checkbox" name="checkboxes" disabled>No, I do not
+                                <label><input type="checkbox" name="checkboxes" required> Yes, I do</label>
+                                <label><input type="checkbox" name="checkboxes" disabled>No, I do not</label>
                             </fieldset>
                             <p></p>
                             <button type="submit">Submit</button>
