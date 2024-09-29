@@ -41,6 +41,7 @@ img, audio {
 }
 body {
     font-family: Trebuchet MS;
+    font-size: large;
 }
 h1, h2 {
     font-family: Trebuchet MS;
@@ -74,4 +75,28 @@ hr {
     height: 1px;
     background-color: brown;
     border-color: brown;
+}
+#last-label {
+    margin-top:  5px;
+    display: block;
+    font-family: cursive;
+    background-color: brown;
+    color: aliceblue;
+}
+input[type="submit"] {
+    display: block;
+    background-color: brown;
+    color: aliceblue;
+    height: 2em;
+    font-size: 1.1rem;
+    width: 40%;
+    margin: 0 auto;
+}
+::placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+}
+.input-color {
+    background-color: brown;
+    color: aliceblue;
 }
