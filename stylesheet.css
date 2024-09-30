@@ -3,10 +3,12 @@ h1 {
     padding-top: 1%;
 }
 .main_box {
-    width: 90%;
-    max-width: 900px;
+    /* width: 90%;
+    max-width: 900px; */
+    width: fit-content;
+    max-width: 95%;
     margin: 2% auto;
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .box {
     margin: auto 6%;
@@ -31,9 +33,10 @@ video {
 }
 footer {
     padding: 0.5%;
-    background-color: rgba(94, 0, 0, 0.763);
+    background-color: rgba(94, 0, 0, 0.8);
     border-color: aliceblue;
     color: aliceblue;
+    border-radius: 0 0 10px 10px;
 }
 img, audio {
     max-width: 100%;
@@ -102,4 +105,20 @@ input[type="submit"] {
 }
 legend {
     font-size: 1.2vw;
+}
+textarea, select, input{
+    border-radius: 5px;
+}
+fieldset, input[type="submit"] {
+    border-radius: 15px 30px;
+}
+.main_box {
+    border-radius: 10px;
+}
+textarea {
+    width: 100%;
+}
+.center {
+    text-align: center;
+    font-size: x-large;
 }

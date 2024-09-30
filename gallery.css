@@ -1,0 +1,137 @@
+.link {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 50px;
+}
+.end {
+  text-align: center;
+  margin: 5% 0 0;
+}
+.box {
+  min-width: 50%;
+  width: fit-content;
+  margin: 0 auto;
+  border: 0.1rem solid black;
+  padding: 0;
+}
+body {
+  font-family: 'Trebuchet MS';
+  font-style: italic;
+}
+.pic_info {
+  text-align: center;
+  margin: -1% 0 0;
+}
+
+/*  OBJECTS  */
+
+.markers {
+  margin-top: 5%;
+}
+
+h1 {
+  text-align: center;
+  margin: 1%;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+background-color: rgb(255, 255, 255);
+padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+  display: inline-block;
+}
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
+
+/*  THE NEXT OBJECT COMES   */
+
+.paint {
+  margin-top: 5%;
+}
+.canvas {
+  width: 250px;
+  height: 300px;
+  background-color: #4d0f00;
+  overflow: hidden;
+  filter: blur(2px);
+}
+
+.frame {
+  border: 25px solid black;
+  width: 250px;
+  padding: 25px;
+  margin: 10px auto;
+}
+
+.one {
+  width: 212px;
+  height: 75px;
+  background-color: #efb762;
+  margin: 10px auto;
+  box-shadow: 0 0 3px 3px #efb762;
+  border-radius: 9px;
+  transform: rotate(-0.6deg);
+}
+
+.two {
+  width: 230px;
+  height: 100px;
+  background-color: #8f0401;
+  margin: 0 auto 10px;
+  box-shadow: 0 0 3px 3px #8f0401;
+  border-radius: 8px 10px;
+  transform: rotate(0.4deg);
+}
+
+.one, .two {
+  filter: blur(1px);
+}
+
+.three {
+  width: 91%;
+  height: 28%;
+  background-color: #b20403;
+  margin: auto;
+  filter: blur(2px);
+  box-shadow: 0 0 5px 5px #b20403;
+  border-radius: 30px 25px 60px 12px;
+transform: rotate(-0.2deg);
+}
