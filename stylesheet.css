@@ -100,3 +100,6 @@ input[type="submit"] {
     background-color: brown;
     color: aliceblue;
 }
+legend {
+    font-size: 1.2vw;
+}
