@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
 h1 {
     text-align: center;
     padding-top: 1%;
 }
 .main_box {
-    /* width: 90%;
-    max-width: 900px; */
     width: fit-content;
     max-width: 95%;
     margin: 2% auto;
@@ -82,7 +86,7 @@ hr {
 #last-label {
     margin-top:  5px;
     display: block;
-    font-family: cursive;
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: brown;
     color: aliceblue;
 }
